@@ -4,6 +4,7 @@
 /* Header-Section */
 
 .header{
+  display: block;
   margin-bottom: 20px;
 }
 
@@ -17,6 +18,13 @@
 
 .video-grid {
   border: solid 2px blue;
+}
+
+.video-card {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  border: solid 2px red;
 }
 
 .video-title {
@@ -36,7 +44,9 @@
 
 .thumbnail {
   width: 300px;
+  height: 200px;
   display: block;
+  object-fit: cover;
 }
 
 /* Side-bar */
